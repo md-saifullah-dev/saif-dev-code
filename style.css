@@ -10,7 +10,39 @@
   font-optical-sizing: auto;
 }
 
-header{
-  background-color: #FFF8F3;
+.logo h2 {
+  font-size: 35px;
+  font-weight: 900;
 }
 
+.color-orange {
+  color: #FD6E0A;
+}
+
+header{
+  background-color: #FFF8F3;
+  padding: 50px;
+}
+
+nav{
+  width: 80%;
+  max-width: 1140px;
+ /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 51px;
+  
+}
+
+nav .menu a {
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
